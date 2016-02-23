@@ -6,7 +6,7 @@ float friction = -0.9;
 ArrayList<Ball> balls = new ArrayList();
 
 void setup() {
-  size(640, 360);
+  size(640, 350);
   for (int i = 0; i < numBalls; i++) {
     balls.add(new Ball(random(width), random(height), random(-1,1), random(-1,1), random(10, 10), i, 255,  balls));
   }
