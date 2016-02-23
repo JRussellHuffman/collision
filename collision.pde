@@ -15,6 +15,7 @@ void setup() {
 }
 
 void draw() {
+  println("Hola amigos");
   background(0);
   for (Ball ball : balls) {
     ball.collide();
